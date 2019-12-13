@@ -7,7 +7,8 @@ int main() {
     createSineWaves(sineWave, 0);
     createSineWaves(shiftedSine, 0);
     corr(sineWave, shiftedSine);
-
-
+    for (double i : Corr) {
+        print(i);
+    }
     return 0;
 }
