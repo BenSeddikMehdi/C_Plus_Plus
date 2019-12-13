@@ -1,14 +1,12 @@
 #include <iostream>
 #include "logFunction.h"
+#include <cstring>
+
 using namespace std;
 
 int main() {
-    print("Hola Amigo estas bien !");
-    createSineWaves(sineWave, 0);
-    createSineWaves(shiftedSine, 0);
-    corr(sineWave, shiftedSine);
-    for (double i : Corr) {
-        print(i);
-    }
+    char* buffer = new char[8];
+    memset(buffer, 12, 8);
+    char** ptr = &buffer;
     return 0;
 }
