@@ -8,5 +8,6 @@ int main() {
     char* buffer = new char[8];
     memset(buffer, 12, 8);
     char** ptr = &buffer;
+    char*** ptr_ptr = &ptr;
     return 0;
 }
