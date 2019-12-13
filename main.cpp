@@ -3,12 +3,12 @@
 #include <cstring>
 
 using namespace std;
-void increment(uint8_t * a) {
+void increment(int* a) {
     (*a)++;
 }
 int main() {
-    int a = sizeof(uint8_t);
-//    increment(a);
-    print(a.min());
+    int a = 12;
+    increment(&a);
+    print(a);
     return 0;
 }
