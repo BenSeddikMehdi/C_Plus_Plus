@@ -3,4 +3,4 @@ project(Cplusplus)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Cplusplus main.cpp)
+add_executable(Cplusplus main.cpp logFunction.h)

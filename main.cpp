@@ -1,9 +1,13 @@
 #include <iostream>
-
+#include "logFunction.h"
 using namespace std;
-#define LOG(message) (cout << message << endl)
 
 int main() {
-    LOG("Hola Amigg estas bien");
+    print("Hola Amigo estas bien !");
+    createSineWaves(sineWave, 0);
+    createSineWaves(shiftedSine, 0);
+    corr(sineWave, shiftedSine);
+
+
     return 0;
 }
