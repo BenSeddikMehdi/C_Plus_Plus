@@ -3,11 +3,12 @@
 #include <cstring>
 
 using namespace std;
-
+void increment(uint8_t * a) {
+    (*a)++;
+}
 int main() {
-    char* buffer = new char[8];
-    memset(buffer, 0x0F, 8);
-    char** ptr = &buffer;
-    char*** ptr_ptr = &ptr;
+    int a = sizeof(uint8_t);
+//    increment(a);
+    print(a.min());
     return 0;
 }
