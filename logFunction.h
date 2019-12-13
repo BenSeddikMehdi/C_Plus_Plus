@@ -1,11 +1,12 @@
 //
-// Created by HP-EliteBook on 12/11/2019.
+// Created by El Mehdi Benseddik on 12/11/2019.
 //
 
 #ifndef CPLUSPLUS_LOGFUNCTION_H
 #define CPLUSPLUS_LOGFUNCTION_H
 
 #include <cmath>
+using namespace std;
 #define print(msg) (cout << msg << endl)
 
 #define N 48
