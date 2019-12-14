@@ -1,14 +1,15 @@
 #include <iostream>
 #include "logFunction.h"
 
-typedef struct Player {
+typedef class Player {
+public:
     int x, y;
     int speed;
     void moveXaYa(int xa, int ya){
         x = xa*speed;
         y = ya*speed;
     }
-}player_t;
+} player_t;
 
 int main() {
     player_t var{};
@@ -16,8 +17,5 @@ int main() {
     var.moveXaYa(3, 2);
     print(var.x);
     print(var.y);
-
-
-
     return 0;
 }
