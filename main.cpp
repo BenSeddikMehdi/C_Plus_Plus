@@ -34,7 +34,5 @@ int main() {
     do_reverse_string(reverse_string, temp);
     printf("temp = %s\n", temp);
     print(temp);
-
-
     return 0;
 }
