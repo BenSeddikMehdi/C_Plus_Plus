@@ -11,6 +11,7 @@ typedef struct Player {
 }player_t;
 
 int main() {
+
     player_t var{};
     var.speed = 3;
     var.moveXaYa(3, 2);
